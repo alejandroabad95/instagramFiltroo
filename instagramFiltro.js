@@ -21,7 +21,7 @@ async function getStories(userId, accessToken) {
   }
 }
 
-// Valida que la historia tiene un filtro determinado y se ha mantenido 12 h, habría que encontrar si existe una propiedad en stories que te de el tipo de filtor
+// Valida que la historia tiene un filtro determinado y se ha mantenido 12 h, habría que encontrar si existe una propiedad en stories que te de el tipo de filtro
 function isStoryValid(story, filterName) {
 
   if (story.filter_type !== filterName) {
